@@ -17,8 +17,12 @@ public class Ora20190516 {
         
     }
     
+    public static void method2(){
+        System.out.println("szia");
+    }
+    
     public static void method3(){
         System.out.println("progmatic4life");
     }
-
+    
 }
