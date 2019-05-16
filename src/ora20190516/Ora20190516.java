@@ -1,9 +1,14 @@
 package ora20190516;
 
+import java.util.ArrayList;
+
 public class Ora20190516 {
 
     public static void method(){
         System.out.println("hello");
+        System.out.println("hellosziaszevassz");
+        ArrayList<Integer> al = new ArrayList<>();
+        al.add(99);
     }
 
     public static void main(String[] args) {
