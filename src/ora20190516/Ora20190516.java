@@ -1,6 +1,7 @@
 package ora20190516;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Ora20190516 {
 
@@ -23,8 +24,8 @@ public class Ora20190516 {
         }
         
         System.out.println("biliárd? Y/N");
-        
-        String s = "y";
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
         if(s.equalsIgnoreCase("Y")){
             System.out.println(" :) ");
         }else{
