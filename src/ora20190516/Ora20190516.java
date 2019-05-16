@@ -17,6 +17,16 @@ public class Ora20190516 {
             System.out.println(array[i]);
         }
         
+        System.out.println("biliárd? Y/N");
+        
+        String s = "y";
+        if(s.equalsIgnoreCase("Y")){
+            System.out.println(" :) ");
+        }else{
+            System.out.println(" :( ");
+        }
+        
+        
     }
     
     public static void method2(){
@@ -26,5 +36,7 @@ public class Ora20190516 {
     public static void method3(){
         System.out.println("progmatic4life");
     }
+    
+    
     
 }
