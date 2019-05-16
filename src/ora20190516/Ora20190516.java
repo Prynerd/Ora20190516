@@ -2,6 +2,7 @@ package ora20190516;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.HashSet;
 
 public class Ora20190516 {
 
@@ -37,6 +38,8 @@ public class Ora20190516 {
     
     public static void method2(){
         System.out.println("szia");
+        HashSet<String> hSet = new HashSet<>();
+        hSet.add("Yo");
     }
     
     public static void method3(){
