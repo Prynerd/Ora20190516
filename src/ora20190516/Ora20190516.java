@@ -13,7 +13,9 @@ public class Ora20190516 {
             array[i] = i;
         }
         
-        
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
         
     }
     
