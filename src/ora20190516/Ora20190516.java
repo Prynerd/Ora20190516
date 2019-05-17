@@ -33,7 +33,10 @@ public class Ora20190516 {
             System.out.println(" :( ");
         }
         
-        
+        int r = (int) (Math.random()*10);
+        for (int i = 0; i < r; i++) {
+            System.out.println("#");
+        }
     }
     
     public static void method2(){
