@@ -17,9 +17,7 @@ public class BranchClass {
         this.classname = classname;
     }
 
-    public void printClassname(){
-        System.out.println(classname);
-    }
+    
     
     public String getClassname() {
         return classname;
