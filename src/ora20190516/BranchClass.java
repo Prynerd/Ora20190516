@@ -29,7 +29,9 @@ public class BranchClass {
         this.classname = classname;
     }
     
-    
+    public void resetClassname(){
+        classname = "";
+    }
     
     
 }
