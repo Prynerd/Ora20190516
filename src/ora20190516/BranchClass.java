@@ -13,6 +13,12 @@ public class BranchClass {
     
     public String classname;
 
+    public BranchClass(String classname) {
+        this.classname = classname;
+    }
+
+    
+    
     public String getClassname() {
         return classname;
     }
