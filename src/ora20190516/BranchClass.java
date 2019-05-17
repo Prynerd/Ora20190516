@@ -11,4 +11,17 @@ package ora20190516;
  */
 public class BranchClass {
     
+    public String classname;
+
+    public String getClassname() {
+        return classname;
+    }
+
+    public void setClassname(String classname) {
+        this.classname = classname;
+    }
+    
+    
+    
+    
 }
